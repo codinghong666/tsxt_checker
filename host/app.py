@@ -26,12 +26,12 @@ def load_results():
 def save_results(results):
     """保存检查结果"""
     with open(RESULTS_DB, 'w') as f:
-        json.dump(results, f, indent=2)
+        json.dump(results, f, indent=2 , ensure_ascii=False)
 
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
-# Ensure upload folder exists
+# Ensure upload folder ·exists
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 def allowed_file(filename):
@@ -144,4 +144,4 @@ def upload_file():
             'message': 'Invalid file type. Only ZIP files are allowed'
         })
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=42071, debug=True)
