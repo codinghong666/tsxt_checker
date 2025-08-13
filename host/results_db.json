@@ -1,0 +1,17 @@
+[
+  {
+    "student_id": "555",
+    "timestamp": "2025-08-13T15:43:51.027443",
+    "filename": "Archive.zip",
+    "results": [
+      "File structure check passed",
+      "\nSign-in page (/) working",
+      "\nView page (/view) working",
+      "\nSign-in submission (/sign) working",
+      "\nRedirect successful",
+      "\nView page return link working (actual redirect successful)",
+      "\nSign-in list displayed correctly",
+      "\nTotal score: 100"
+    ]
+  }
+]
