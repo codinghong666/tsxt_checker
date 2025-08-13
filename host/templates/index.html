@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Project Checker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Project Submission</h1>
+        <p>Upload your full-stack project zip file for checking</p>
+        
+        <form id="uploadForm" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="studentId">Student ID:</label>
+                <input type="text" id="studentId" name="studentId" required>
+            </div>
+            <div class="form-group">
+                <label for="projectFile">Project ZIP File:</label>
+                <input type="file" id="projectFile" name="projectFile" accept=".zip" required>
+            </div>
+            <button type="submit" class="submit-btn">Submit Project</button>
+        </form>
+        
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Checking your project, please wait...</p>
+        </div>
+        
+        <div id="results" class="results hidden">
+            <h2>Check Results</h2>
+            <div class="result-content" id="resultContent"></div>
+            <button id="newUpload" class="submit-btn">Upload Another Project</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

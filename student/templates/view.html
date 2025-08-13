@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>签到名单</title>
+</head>
+<body>
+    <!-- 只有跳转链接和名单显示 -->
+    <a href="/">返回签到</a>
+    
+    <h2>已签到人员：</h2>
+    <ul>
+        {% for name in names %}
+        <li>{{ name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
