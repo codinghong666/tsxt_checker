@@ -1,2 +1,188 @@
 [
+  {
+    "student_id": "stickman",
+    "timestamp": "2025-08-14T08:50:39.050249",
+    "filename": "Archive.zip",
+    "results": [
+      "File structure check passed",
+      "\nSign-in page (/) working",
+      "\nView page (/view) working",
+      "\nSign-in submission (/sign) working",
+      "\nRedirect successful",
+      "\nView page return link working (actual redirect successful)",
+      "\nSign-in list displayed correctly",
+      "\nTotal score: 100"
+    ]
+  },
+  {
+    "student_id": "coding_hong",
+    "timestamp": "2025-08-14T08:51:42.528261",
+    "filename": "Archive.zip",
+    "results": [
+      "File structure check passed",
+      "\nSign-in page (/) working",
+      "\nView page (/view) working",
+      "\nSign-in submission (/sign) working",
+      "\nRedirect successful",
+      "\nView page return link working (actual redirect successful)",
+      "\nSign-in list displayed correctly",
+      "\nTotal score: 100"
+    ]
+  },
+  {
+    "student_id": "deepseek",
+    "timestamp": "2025-08-15T21:11:41.753740",
+    "filename": "Archive.zip",
+    "results": [
+      "File structure check passed",
+      "\nSign-in page (/) working",
+      "\nView page (/view) working",
+      "\nSign-in submission (/sign) working",
+      "\nRedirect successful",
+      "\nView page return link working (actual redirect successful)",
+      "\nSign-in list displayed correctly",
+      "\nTotal score: 100"
+    ]
+  },
+  {
+    "student_id": "Gemini",
+    "timestamp": "2025-08-15T21:17:14.540980",
+    "filename": "Gemini.zip",
+    "results": false
+  },
+  {
+    "student_id": "Gemini",
+    "timestamp": "2025-08-15T21:17:44.426507",
+    "filename": "Archive.zip",
+    "results": [
+      "File structure check passed",
+      "\nSign-in page (/) working",
+      "\nView page (/view) working",
+      "\nSign-in submission (/sign) working",
+      "\nRedirect successful",
+      "\nView page return link working (actual redirect successful)",
+      "\nTest user not found in sign-in list, current list: []",
+      "\nTotal score: 75"
+    ]
+  },
+  {
+    "student_id": "Gemini",
+    "timestamp": "2025-08-15T21:18:41.695266",
+    "filename": "Archive.zip",
+    "results": [
+      "File structure check passed",
+      "\nSign-in page (/) working",
+      "\nView page (/view) working",
+      "\nSign-in submission (/sign) working",
+      "\nRedirect successful",
+      "\nView page return link working (actual redirect successful)",
+      "\nTest user not found in sign-in list, current list: []",
+      "\nTotal score: 75"
+    ]
+  },
+  {
+    "student_id": "Gemini",
+    "timestamp": "2025-08-15T21:20:53.062401",
+    "filename": "Archive.zip",
+    "results": [
+      "File structure check passed",
+      "\nSign-in page (/) working",
+      "\nView page (/view) working",
+      "\nSign-in submission (/sign) working",
+      "\nRedirect successful",
+      "\nView page return link working (actual redirect successful)",
+      "\nTest user not found in sign-in list, current list: []",
+      "\nTotal score: 75"
+    ]
+  },
+  {
+    "student_id": "Gemini",
+    "timestamp": "2025-08-15T21:23:10.036689",
+    "filename": "Archive.zip",
+    "results": [
+      "File structure check passed",
+      "\nSign-in page (/) working",
+      "\nView page (/view) working",
+      "\nSign-in submission (/sign) working",
+      "\nRedirect successful",
+      "\nView page return link working (actual redirect successful)",
+      "\nTest user not found in sign-in list, current list: []",
+      "\nTotal score: 75"
+    ]
+  },
+  {
+    "student_id": "Gemini",
+    "timestamp": "2025-08-15T21:27:42.611509",
+    "filename": "Archive.zip",
+    "results": [
+      "File structure check passed",
+      "\nSign-in page (/) working",
+      "\nView page (/view) working",
+      "\nSign-in submission (/sign) working",
+      "\nRedirect successful",
+      "\nView page return link working (actual redirect successful)",
+      "\nTest user not found in sign-in list, current list: []",
+      "\nTotal score: 75"
+    ]
+  },
+  {
+    "student_id": "Gemini",
+    "timestamp": "2025-08-15T21:46:52.195228",
+    "filename": "Archive.zip",
+    "results": [
+      "File structure check passed",
+      "\nSign-in page (/) working",
+      "\nView page (/view) working",
+      "\nSign-in submission (/sign) working",
+      "\nRedirect successful",
+      "\nView page return link working (actual redirect successful)",
+      "\nTest user not found in sign-in list, current list: []",
+      "\nTotal score: 75"
+    ]
+  },
+  {
+    "student_id": "Gemini",
+    "timestamp": "2025-08-15T21:59:12.859282",
+    "filename": "Archive.zip",
+    "results": [
+      "File structure check passed",
+      "\nSign-in page (/) working",
+      "\nView page (/view) working",
+      "\nSign-in submission (/sign) working",
+      "\nRedirect successful",
+      "\nView page return link working (actual redirect successful)",
+      "\nError during functionality testing: name 'index_response' is not defined",
+      "\nTotal score: 75"
+    ]
+  },
+  {
+    "student_id": "Gemini",
+    "timestamp": "2025-08-15T22:00:10.332071",
+    "filename": "Archive.zip",
+    "results": [
+      "File structure check passed",
+      "\nSign-in page (/) working",
+      "\nView page (/view) working",
+      "\nSign-in submission (/sign) working",
+      "\nRedirect successful",
+      "\nView page return link working (actual redirect successful)",
+      "\nSign-in list displayed correctly",
+      "\nTotal score: 100"
+    ]
+  },
+  {
+    "student_id": "deepseek",
+    "timestamp": "2025-08-15T22:00:27.436778",
+    "filename": "Archive.zip",
+    "results": [
+      "File structure check passed",
+      "\nSign-in page (/) working",
+      "\nView page (/view) working",
+      "\nSign-in submission (/sign) working",
+      "\nRedirect successful",
+      "\nView page return link working (actual redirect successful)",
+      "\nSign-in list displayed correctly",
+      "\nTotal score: 100"
+    ]
+  }
 ]

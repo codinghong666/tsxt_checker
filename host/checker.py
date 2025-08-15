@@ -512,11 +512,22 @@ class FlaskSignSystemChecker:
                     results.append((False, f"Error returning to sign-in page: {str(e)}"))
             
             # 3. Test sign-in functionality
+            index_response = session.get(base_url)
+            index_soup = BeautifulSoup(index_response.text, 'html.parser')
+            
+            # 查找表单中的输入字段（假设只有一个文本输入框）
+            input_field = index_soup.find('input', {'type': 'text'})
+            if not input_field:
+                return [(False, "No text input field found in the form")]
+            
+            field_name = input_field.get('name')
+            if not field_name:
+                return [(False, "Input field has no 'name' attribute")]
             test_name = f"Test_User_{int(time.time())}"
             try:
                 sign_response = session.post(
                     f'{base_url}/sign',
-                    data={'name': test_name},
+                    data={field_name : test_name},
                     allow_redirects=False
                 )
             
